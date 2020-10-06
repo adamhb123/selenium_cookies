@@ -5,7 +5,7 @@ Saves and loads cookies from a given selenium webdriver.
 
 ## Why?
 Useful for storing user information amongst other things. This is 
-actually ripped from my myNotifsV2 project where I save cookies in
+actually ripped from my myNotifsV2 project where I save & load cookies in
 order to automatically log the user in rather than having them log 
 in every single time they run the application. 
 
