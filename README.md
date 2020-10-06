@@ -22,7 +22,7 @@ dummy_driver = webdriver.Firefox()
 #   In some cases this is necessary for the loading and saving of cookies
 #   to actually work. If you don't have this issue, you can just set it to None.
 cookie_handler = CookieHandler(dummy_driver,"https://github.com/adamhb123/selenium_cookies", 
-                               overwrite=False, filename="cooks.cookies", wait_time=5)
+                               overwrite=False, filename="cooks", wait_time=5)
 #   save_cookies() saves the site cookies to the specified file
 cookies = cookie_handler.save_cookies()
 #   load_cookies() loads the saved cookies from the given file (or from the most recently saved one)
