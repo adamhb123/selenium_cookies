@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="adamhb123",
+    name="selenium_cookies",
     version="0.0.1",
     author="Adam Brewer",
     author_email="adamhb321@gmail.com",
