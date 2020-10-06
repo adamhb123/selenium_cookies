@@ -30,3 +30,12 @@ loaded_cookies = cookie_handler.load_cookies()
 print("Saved cookies == loaded cookies == cookie_handler.loaded_cookies: " + str(
         saved_cookies == loaded_cookies == cookie_handler.loaded_cookies))
 ```
+Should you so choose, there is also a basic test available in selenium_cookies.tests:
+```python
+from selenium import webdriver
+from selenium_cookies.tests import test_module
+dummy_driver = webdriver.Firefox() # could also be webdriver.Chrome()
+#   If the driver argument is not supplied, test_module.test attempts to create
+#   the webdriver.Firefox instance with the locally stored geckodriver (0.27.0).  
+test_module.test(driver=dummy_driver)
+```
