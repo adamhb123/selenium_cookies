@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="selenium_cookies",
-    version="0.0.3",
+    version="0.0.4",
     author="Adam Brewer",
     author_email="adamhb321@gmail.com",
     description="Cookie handling for selenium webdrivers.",
