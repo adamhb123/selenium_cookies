@@ -1,0 +1,12 @@
+.idea/
+adamhb123.egg-info/
+build/
+dist/
+geckodriver.log
+selenium_cookies/chromedriver
+selenium_cookies/chromedriver.exe
+selenium_cookies/geckodriver
+selenium_cookies/geckodriver.exe
+selenium_cookies/geckodriver.log
+selenium_cookies/lastsesh.cookies
+

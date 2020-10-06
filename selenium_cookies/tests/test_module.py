@@ -4,7 +4,15 @@ from selenium import webdriver
 
 #   Test utilizes Firefox 81.0 and Geckodriver 0.27.0
 #   Geckodriver is included, Firefox is not
-def test(driver):
-    if driver is None:
-        driver = webdriver.Firefox()
-    cookie_handler = CookieHandler(driver,'https://github.com/adamhb123/selenium_cookies')
+def test():
+    driver = webdriver.Firefox(executable_path='./geckodriver')
+    cookie_handler = CookieHandler(driver, 'https://github.com/adamhb123/selenium_cookies')
+    saved_cookies = cookie_handler.save_cookies()
+    loaded_cookies = cookie_handler.loaded_cookies()
+    print("Saved cookies:\n\t" + ''.join(saved_cookies))
+    print("Loaded cookies:\n\t" + ''.join(loaded_cookies))
+    print("Saved cookies == loaded cookies: " + str(saved_cookies == loaded_cookies))
+
+
+if __name__ == "__main__":
+    test()

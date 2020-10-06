@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="adamhb123", # Replace with your own username
+    name="adamhb123",
     version="0.0.1",
     author="Adam Brewer",
     author_email="adamhb321@gmail.com",
@@ -19,5 +19,6 @@ setuptools.setup(
         "Operating System :: Microsoft :: Windows",
         "Operating System :: POSIX :: Linux"
     ],
+    install_requires=['selenium'],
     python_requires='>=3.4',
 )
