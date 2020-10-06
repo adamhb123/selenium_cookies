@@ -10,7 +10,6 @@ from typing import Union
 from datetime import datetime
 from selenium import webdriver
 
-
 class CookieHandler:
     def __init__(self, driver, main_page: Union[str, None], overwrite: bool = True, filename: str = 'lastsesh',
                  wait_time: int = 10):

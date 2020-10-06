@@ -11,8 +11,10 @@ def test():
     loaded_cookies = cookie_handler.load_cookies()
     print(saved_cookies)
     print(loaded_cookies)
-    print("Saved cookies == loaded cookies: " + str(saved_cookies == loaded_cookies))
-    assert saved_cookies == loaded_cookies
+    print("Saved cookies == loaded cookies == cookie_handler.loaded_cookies: " + str(
+        saved_cookies == loaded_cookies == cookie_handler.loaded_cookies))
+
+    assert saved_cookies == loaded_cookies == cookie_handler.loaded_cookies
 
 
 if __name__ == "__main__":

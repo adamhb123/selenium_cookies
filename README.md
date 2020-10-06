@@ -24,6 +24,9 @@ dummy_driver = webdriver.Firefox()
 cookie_handler = CookieHandler(dummy_driver,"https://github.com/adamhb123/selenium_cookies", 
                                overwrite=False, filename="cooks", wait_time=5)
 #   save_cookies() saves the site cookies to the specified file
-cookies = cookie_handler.save_cookies()
+saved_cookies = cookie_handler.save_cookies()
 #   load_cookies() loads the saved cookies from the given file (or from the most recently saved one)
+loaded_cookies = cookie_handler.load_cookies()
+print("Saved cookies == loaded cookies == cookie_handler.loaded_cookies: " + str(
+        saved_cookies == loaded_cookies == cookie_handler.loaded_cookies))
 ```
