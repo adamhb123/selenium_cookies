@@ -68,7 +68,7 @@ class CookieHandler:
         cookies = self.driver.get_cookies()
         #   Update self.filename to latest save if overwrite is disabled
         self.filename = self.filename if self.overwrite else self.filename + datetime.now().strftime(
-            "d%m,%d,%Yt%H,%M,%S") + '.cookies'
+            "d%m,%d,%Yt%H,%M,%S")
         with open(self.filename, 'w+') as f:
             for cookie in cookies:
                 f.write(json.dumps(cookie) + '\n')

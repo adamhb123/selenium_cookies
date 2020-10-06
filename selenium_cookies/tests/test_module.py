@@ -8,11 +8,11 @@ def test():
     driver = webdriver.Firefox(executable_path='./geckodriver')
     cookie_handler = CookieHandler(driver, 'https://github.com/adamhb123/selenium_cookies')
     saved_cookies = cookie_handler.save_cookies()
-    loaded_cookies = cookie_handler.loaded_cookies()
-    print("Saved cookies:\n\t" + ''.join(saved_cookies))
-    print("Loaded cookies:\n\t" + ''.join(loaded_cookies))
+    loaded_cookies = cookie_handler.load_cookies()
+    print(saved_cookies)
+    print(loaded_cookies)
     print("Saved cookies == loaded cookies: " + str(saved_cookies == loaded_cookies))
-
+    assert str(saved_cookies) == str(loaded_cookies)
 
 if __name__ == "__main__":
     test()
