@@ -12,7 +12,8 @@ def test():
     print(saved_cookies)
     print(loaded_cookies)
     print("Saved cookies == loaded cookies: " + str(saved_cookies == loaded_cookies))
-    assert str(saved_cookies) == str(loaded_cookies)
+    assert saved_cookies == loaded_cookies
+
 
 if __name__ == "__main__":
     test()

@@ -1,6 +1,0 @@
-{"name": "_gh_sess", "value": "0UEfVHpzwZf7sKvEVHevRzfjTlg%2FJZtuRH4cEgbl6mhWcCOaYUvLGX9Edlz02JwsmL9CS9%2BFGJbUjOH5%2F5gXr5ve76qiakXNL8UoNC4PQRqqyKKsBCmBD08N4jQyoYi2EiKck19bvc9%2BdmmE507AJfV%2BZspCplKT1cdBrRfJIN7dlDfvbckjGn2blPmYR678jzXBKYXtAscSDAwmnNuwbMO462uO8RKnOMjULiGcdRAZyQmQPecPj2U94ilEyuu4pPhuhsUqq2t9tZe0RAkNfA%3D%3D--qp2ZWGP3axKvsMNk--HztHM3Ent909%2FTLqXz4rqw%3D%3D", "path": "/", "domain": "github.com", "secure": true, "httpOnly": true, "sameSite": "Lax"}
-{"name": "_octo", "value": "GH1.1.805112708.1601950687", "path": "/", "domain": ".github.com", "secure": true, "httpOnly": false, "expiry": 1633486687, "sameSite": "Lax"}
-{"name": "logged_in", "value": "no", "path": "/", "domain": ".github.com", "secure": true, "httpOnly": true, "expiry": 1633486687, "sameSite": "Lax"}
-{"name": "_ga", "value": "GA1.2.1223082960.1601950688", "path": "/", "domain": ".github.com", "secure": false, "httpOnly": false, "expiry": 1665022688, "sameSite": "None"}
-{"name": "_gat", "value": "1", "path": "/", "domain": ".github.com", "secure": false, "httpOnly": false, "expiry": 1601951288, "sameSite": "None"}
-{"name": "tz", "value": "America%2FNew_York", "path": "/", "domain": ".github.com", "secure": true, "httpOnly": false, "sameSite": "Lax"}
